@@ -1,0 +1,44 @@
+section {
+  background-color: black;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 12px;
+}
+
+a {
+  color: burlywood;
+}
+
+a:hover {
+  color: cyan;
+}
+
+h2 {
+  color: red;
+  padding-left: 15px;
+}
+
+img {
+  border-color: red;
+  border-style: solid;
+  border-width: 6px;
+  max-height: 200px;
+}
+
+h1, #my-photo {
+  text-align: center;
+}
+
+#my-photo {
+  margin-bottom: 20px;
+}
+
+li {
+  text-align: justify;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+h1 {
+  color:black;
+}
