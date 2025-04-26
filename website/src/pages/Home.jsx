@@ -37,7 +37,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full transform rotate-6"></div>
               <div className="absolute inset-0 bg-white dark:bg-gray-800 rounded-full overflow-hidden">
                 <img
-                  src="/profile-placeholder.jpg"
+                  src="/assets/photo-of-Luis.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
