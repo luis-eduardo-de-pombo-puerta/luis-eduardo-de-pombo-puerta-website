@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MapPin, Phone, Github } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, MessageSquare } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -84,11 +84,20 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                  <MessageSquare className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h3>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (123) 456-7890</p>
+                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">WhatsApp</h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    <a 
+                      href="https://wa.me/573134620227" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      +57 3134620227
+                    </a>
+                  </p>
                 </div>
               </div>
               
