@@ -58,9 +58,15 @@ const About = () => {
             
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Interests</h2>
             <p className="text-gray-600 dark:text-gray-300">
-              When I'm not coding or working on AI projects, I enjoy [your interests]. I'm particularly
-              interested in [specific areas of interest] and love to [related activities].
+              When I'm not coding or working on AI projects, I enjoy hiking, reading science fiction, and playing chess. I'm also an avid photographer and love to capture landscapes and urban scenes.
             </p>
+
+            <div className="mt-8">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-white">Connect With Me</h2>
+              <p className="mt-2 text-gray-600 dark:text-gray-300">
+                Feel free to check out my projects on <a href="https://github.com/luis-eduardo-de-pombo-puerta" className="text-blue-600 hover:underline dark:text-blue-400">GitHub</a> or reach out via <a href="mailto:depombo2@gmail.com" className="text-blue-600 hover:underline dark:text-blue-400">email</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
