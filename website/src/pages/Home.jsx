@@ -7,7 +7,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
-              Hi, I'm <span className="text-blue-600 dark:text-blue-400">Luis De Pombo</span>
+              Hi, I'm <span className="text-blue-600 dark:text-blue-400">Luis E. De Pombo P.</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300">
               AI Engineer & Full Stack Developer
