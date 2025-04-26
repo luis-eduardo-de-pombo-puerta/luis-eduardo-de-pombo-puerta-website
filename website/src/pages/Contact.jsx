@@ -66,7 +66,15 @@ const Contact = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900 dark:text-white">Email</h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    <a href="mailto:depombo2@gmail.com" className="hover:underline">
+                    <a 
+                      href="mailto:depombo2@gmail.com?subject=Website%20Contact&body=Hello%20Luis%2C%0A%0AI'm%20reaching%20out%20from%20your%20website..." 
+                      className="hover:underline text-blue-600 dark:text-blue-400"
+                      onClick={(e) => {
+                        const mailtoLink = e.currentTarget.getAttribute('href');
+                        window.location.href = mailtoLink;
+                        e.preventDefault();
+                      }}
+                    >
                       depombo2@gmail.com
                     </a>
                   </p>
