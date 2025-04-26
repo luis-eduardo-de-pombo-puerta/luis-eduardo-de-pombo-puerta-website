@@ -15,18 +15,18 @@ const About = () => {
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Education</h2>
             <div className="space-y-6">
               <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Master's Degree in Computer Science</h3>
-                <p className="text-gray-600 dark:text-gray-300">University Name, 20XX - 20XX</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Master of Science in Civil Engineering</h3>
+                <p className="text-gray-600 dark:text-gray-300">University of Illinois at Urbana-Champaign</p>
                 <p className="text-gray-600 dark:text-gray-300 mt-2">
-                  Specialized in Artificial Intelligence and Machine Learning. Thesis on [Your Thesis Topic].
+                  Specialized in structural engineering and advanced construction techniques.
                 </p>
               </div>
               
               <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Bachelor's Degree in Computer Science</h3>
-                <p className="text-gray-600 dark:text-gray-300">University Name, 20XX - 20XX</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Bachelor of Science in Civil Engineering</h3>
+                <p className="text-gray-600 dark:text-gray-300">University of Illinois at Urbana-Champaign</p>
                 <p className="text-gray-600 dark:text-gray-300 mt-2">
-                  Focused on software engineering and data structures. Graduated with honors.
+                  Focused on core engineering principles and sustainable design. Graduated with honors.
                 </p>
               </div>
             </div>
