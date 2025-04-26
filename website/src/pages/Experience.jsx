@@ -4,7 +4,7 @@ const Experience = () => {
       id: 1,
       role: 'Senior AI Engineer',
       company: 'Tech Innovations Inc.',
-      period: '2022 - Present',
+      period: 'xxxx - xxxx',
       description: 'Leading the development of AI-powered solutions for enterprise clients. Specializing in natural language processing and machine learning applications.',
       skills: ['Machine Learning', 'NLP', 'Python', 'TensorFlow', 'AWS']
     },
@@ -12,7 +12,7 @@ const Experience = () => {
       id: 2,
       role: 'AI Research Engineer',
       company: 'AI Research Lab',
-      period: '2020 - 2022',
+      period: 'xxxx - xxxx',
       description: 'Conducted research in deep learning and computer vision. Published papers in top AI conferences and developed novel algorithms for image recognition.',
       skills: ['Deep Learning', 'Computer Vision', 'PyTorch', 'Research', 'Publications']
     },
@@ -20,7 +20,7 @@ const Experience = () => {
       id: 3,
       role: 'Machine Learning Engineer',
       company: 'Data Science Solutions',
-      period: '2018 - 2020',
+      period: 'xxxx - xxxx',
       description: 'Built and deployed machine learning models for various business applications. Worked on data preprocessing, model training, and production deployment.',
       skills: ['Machine Learning', 'Data Science', 'Python', 'Scikit-learn', 'Docker']
     },
@@ -28,7 +28,7 @@ const Experience = () => {
       id: 4,
       role: 'Software Engineer',
       company: 'Tech Startup',
-      period: '2016 - 2018',
+      period: 'xxxx - xxxx',
       description: 'Developed full-stack applications with a focus on backend services and API development. Implemented various features and optimizations.',
       skills: ['Full Stack', 'Node.js', 'React', 'MongoDB', 'REST APIs']
     }
