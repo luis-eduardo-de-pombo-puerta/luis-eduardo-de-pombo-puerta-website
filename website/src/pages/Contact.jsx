@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MapPin, Github } from 'lucide-react';
+import { Mail, MapPin, Github, Linkedin } from 'lucide-react';
 
 // IMPORTANT: WhatsApp removed as requested - TESTING DEPLOYMENT
 const Contact = () => {
@@ -97,11 +97,30 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
+                  <Linkedin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                </div>
+                <div className="ml-4">
+                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">LinkedIn</h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    <a 
+                      href="https://www.linkedin.com/in/luis-eduardo-de-pombo-puerta/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      luis-eduardo-de-pombo-puerta
+                    </a>
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
                   <MapPin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900 dark:text-white">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, CA</p>
+                  <p className="text-gray-600 dark:text-gray-300">Colombia</p>
                 </div>
               </div>
             </div>
