@@ -18,7 +18,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Master of Science in Civil Engineering</h3>
                 <p className="text-gray-600 dark:text-gray-300">University of Illinois at Urbana-Champaign</p>
                 <p className="text-gray-600 dark:text-gray-300 mt-2">
-                  Specialized in structural engineering and advanced construction techniques.
+                  Specialized in construction management and technology.
                 </p>
               </div>
               
